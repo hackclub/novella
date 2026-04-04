@@ -10,8 +10,8 @@
   let bottomStripA: HTMLDivElement | undefined;
   let bottomStripB: HTMLDivElement | undefined;
 
-  const TOP_SPEED = 250;
-  const BOTTOM_SPEED = 250;
+  const TOP_SPEED = 75;
+  const BOTTOM_SPEED = 75;
 
   function startTeleportLoop(
     stripA: HTMLDivElement,
