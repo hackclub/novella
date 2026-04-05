@@ -18,9 +18,9 @@
   const INITIAL_BODY =
     "Hack Club is hiring 2 teenagers for a paid gap year to create videos, films, and other content for Hack Club's social media.";
 
-  const NEXT_TITLE = 'lorem ipsum';
+  const NEXT_TITLE = '';
   const NEXT_BODY =
-    'lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet ';
+    "Hack Club is an international nonprofit organization of teenagers who code together. We're also a community, run by teenagers for teenagers, full of amazing people and amazing stories--and we're looking for you to tell them.";
 
   const TEXT_EFFECT_START_PX = 28;
   const TEXT_EFFECT_RANGE_PX = 420;
@@ -253,13 +253,17 @@
       {/each}
     </div>
   </div>
+  
+  <div class="herocontainer">
+  <div class="hero">
+    <div class="text">
+      <h1 id="title" class:typing={titleState.typing} style={`opacity: ${titleState.opacity};`}>{titleState.text}</h1>
+      <p id="body" class:typing={bodyState.typing} style={`opacity: ${bodyState.opacity};`}>{bodyState.text}</p>
+    </div>
 
-  <div class="text">
-    <h1 id="title" class:typing={titleState.typing} style={`opacity: ${titleState.opacity};`}>{titleState.text}</h1>
-    <p id="body" class:typing={bodyState.typing} style={`opacity: ${bodyState.opacity};`}>{bodyState.text}</p>
+      <div class="button"><a id="applyButton" href="https://example.com">Apply Now (x days remaining)</a></div>
   </div>
-
-  <div class="button"><a id="applyButton" href="https://example.com">Apply Now (x days remaining)</a></div>
+  </div>
 
   <div class="carousel-viewport carousel-bottom">
     <div class="teleport-strip" bind:this={bottomStripA}>

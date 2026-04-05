@@ -24,6 +24,7 @@
   position: relative;
   background: var(--color-bg);
   padding: 10px 0;
+
 }
 
 .teleport-strip {
@@ -97,7 +98,7 @@
   overflow-wrap: anywhere;
   font-size: 35px;
   text-align: center;
-  padding-bottom: 125px;
+  padding-bottom: 75px;
   min-height: 4.2em;
   transition: opacity 120ms linear;
 }
@@ -123,15 +124,23 @@
 
 #applyButton {
   font-size: 25px;
-  background-color: var(--color-bg-card);
-  border-radius: 50px;
+  background-color: var(--color-bg);
+  border-radius: 999999px;
   border-width: 2px;
-  padding: 15px;
-  transition: background-color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
+  padding: 6px 16px;
+  transition: background-color 0.5s, color 0.5s;
+  border-color: #ffffff;
 }
 
 #applyButton:hover {
-  color: var(--color-bg-card);
+  color: var(--color-bg);
   background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
