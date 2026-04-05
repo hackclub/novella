@@ -208,7 +208,7 @@ body {
 	line-height: 1.6;
 }
 
-#scroll-down{
+r#scroll-down{
 	text-align:center;
 	margin-top: 4vh;
 	font-family: 'Glyseric', "serif";
@@ -227,4 +227,28 @@ body {
 	animation-name: scroll-down-arrow;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
+.typing-word.accent {
+  color: var(--color-accent);
+}
+
+.typing-underline {
+  position: relative;
+  white-space: nowrap;
+}
+
+.typing-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 100%;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.typing-underline.underline-visible::after {
+  transform: scaleX(1);
 }

@@ -117,8 +117,66 @@
 		};
 	});
 
-	const TYPING_TEXT =
-		"Hack Club is an international nonprofit organization of teenagers who code together. We're also a community, run by teenagers for teenagers, full of amazing people and amazing stories--and we're looking for you to tell them.";
+	type Token =
+		| { type: 'word'; text: string; bold?: boolean; accent?: boolean }
+		| { type: 'break' }
+		| { type: 'underline'; text: string };
+
+	const TYPING_TOKENS: Token[] = [
+		{ type: 'word', text: 'Hack' },
+		{ type: 'word', text: 'Club' },
+		{ type: 'word', text: 'is' },
+		{ type: 'word', text: 'an' },
+		{ type: 'word', text: 'international' },
+		{ type: 'word', text: 'nonprofit' },
+		{ type: 'word', text: 'organization' },
+		{ type: 'word', text: 'of' },
+		{ type: 'word', text: 'teenagers' },
+		{ type: 'word', text: 'who' },
+		{ type: 'word', text: 'code' },
+		{ type: 'word', text: 'together.' },
+		{ type: 'word', text: "We're" },
+		{ type: 'word', text: 'also' },
+		{ type: 'word', text: 'a' },
+		{ type: 'word', text: 'community,' },
+		{ type: 'word', text: 'run' },
+		{ type: 'word', text: 'by' },
+		{ type: 'word', text: 'teenagers' },
+		{ type: 'word', text: 'for' },
+		{ type: 'word', text: 'teenagers,' },
+		{ type: 'word', text: 'full' },
+		{ type: 'word', text: 'of' },
+		{ type: 'word', text: 'amazing' },
+		{ type: 'word', text: 'people' },
+		{ type: 'word', text: 'and' },
+		{ type: 'word', text: 'amazing' },
+		{ type: 'word', text: 'stories.' },
+		{ type: 'break' },
+		{ type: 'word', text: "We're" },
+		{ type: 'word', text: 'looking' },
+		{ type: 'word', text: 'for' },
+		{ type: 'word', text: 'a' },
+		{ type: 'word', text: 'storyteller', bold: true, accent: true},
+		{ type: 'word', text: '— someone'},
+		{ type: 'word', text: 'who' },
+		{ type: 'word', text: 'can' },
+		{ type: 'word', text: 'use' },
+		{ type: 'word', text: 'a' },
+		{ type: 'word', text: 'camera' },
+		{ type: 'word', text: 'as' },
+		{ type: 'word', text: 'a' },
+		{ type: 'word', text: 'window' },
+		{ type: 'word', text: 'into' },
+		{ type: 'word', text: 'our' },
+		{ type: 'word', text: 'world —' },
+		{ type: 'word', text: 'and'},
+		{ type: 'word', text: "we're" },
+		{ type: 'word', text: 'looking' },
+		{ type: 'word', text: 'for' },
+		{ type: 'word', text: 'you' },
+		{ type: 'word', text: 'to' },
+		{ type: 'underline', text: 'tell our stories.' },
+	];
 
 	let heroScrollContainer: HTMLDivElement | undefined;
 
@@ -128,7 +186,7 @@
 		const heroEl = heroScrollContainer.querySelector<HTMLElement>('.hero');
 		const carouselTop = heroScrollContainer.querySelector<HTMLElement>('.carousel-top');
 		const carouselBottom = heroScrollContainer.querySelector<HTMLElement>('.carousel-bottom');
-		const typingWordEls = heroScrollContainer.querySelectorAll<HTMLSpanElement>('.typing-word');
+		const typingWordEls = heroScrollContainer.querySelectorAll<HTMLElement>('.typing-word');
 		const total = typingWordEls.length;
 
 		const onScroll = () => {
@@ -150,10 +208,15 @@
 				const wp = Math.max(0, Math.min(1, (wordProgress - start) / fadeWindow));
 				word.style.opacity = String(wp);
 				word.style.top = `${(1 - wp) * 10}px`;
+
+				// Trigger underline draw once the span is mostly faded in
+				if (word.classList.contains('typing-underline')) {
+					word.classList.toggle('underline-visible', wp > 0.5);
+				}
 			});
 
 			// Top carousel slides up, bottom carousel fades out: progress 0.85→1.0
-			const carouselProgress = Math.max(0, Math.min(1, (progress - 0.85) / 0.15));
+			const carouselProgress = Math.max(0, Math.min(1, (progress - 0.92) / 0.08));
 			if (carouselTop) {
 				carouselTop.style.transform = `translateY(${-carouselProgress * 110}%)`;
 				carouselTop.style.opacity = String(1 - carouselProgress);
@@ -222,10 +285,19 @@
 
 		<div class="typing-overlay" id="first-intro">
 			<p class="typing-text">
-				<!-- eslint-disable svelte/no-useless-mustaches -->
-				{#each TYPING_TEXT.split(' ') as word, i (i)}<span class="typing-word">{word}</span
-					>{' '}{/each}
-				<!-- eslint-enable svelte/no-useless-mustaches -->
+				{#each TYPING_TOKENS as token, i (i)}
+					{#if token.type === 'break'}
+						<br class="typing-word" />
+					{:else if token.type === 'underline'}
+						<span class="typing-word typing-underline">{token.text}</span>{' '}
+					{:else}
+						{#if token.accent}
+							<span class="typing-word accent">{token.text}</span>{' '}
+						{:else}
+							<span class="typing-word">{token.text}</span>{' '}
+						{/if}
+						{/if}
+				{/each}
 			</p>
 		</div>
 	</div>
