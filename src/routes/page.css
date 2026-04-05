@@ -162,7 +162,7 @@
 	align-items: center;
 	justify-content: center;
 	gap: clamp(1.5rem, 4vh, 3rem);
-	padding: 40vh clamp(1.5rem, 8vw, 12rem) 10vh;
+	padding: 15vh clamp(1.5rem, 8vw, 12rem);
 	background: var(--color-bg);
 }
 

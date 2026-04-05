@@ -134,7 +134,7 @@
 			const fadeWindow = 3 / total;
 
 			typingWordEls.forEach((word, i) => {
-				const start = i / total;
+				const start = (i / (total - 1)) * (1 - fadeWindow);
 				const wp = Math.max(0, Math.min(1, (wordProgress - start) / fadeWindow));
 				word.style.opacity = String(wp);
 				word.style.top = `${(1 - wp) * 10}px`;
