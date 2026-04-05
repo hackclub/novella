@@ -268,10 +268,16 @@ body {
 	line-height: 1.6;
 }
 
-@keyframes scroll-down-arrow{
-	0% {transform: translateY(-2px)}
-	50% {transform: translateY(2px)}
-	100% {transform: translateY(-2px)}
+@keyframes scroll-down-arrow {
+	0% {
+		transform: translateY(-2px);
+	}
+	50% {
+		transform: translateY(2px);
+	}
+	100% {
+		transform: translateY(-2px);
+	}
 }
 
 #scroll-down-arrow {

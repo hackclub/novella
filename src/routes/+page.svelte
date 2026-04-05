@@ -93,17 +93,17 @@
 		};
 	}
 	onMount(() => {
-		const scrollDown = document.getElementById("scroll-down") as HTMLParagraphElement;
+		const scrollDown = document.getElementById('scroll-down') as HTMLParagraphElement;
 
-		scrollDown.addEventListener("click", ()=>{
-			const container = document.querySelector(".hero-scroll-container") as HTMLElement;
+		scrollDown.addEventListener('click', () => {
+			const container = document.querySelector('.hero-scroll-container') as HTMLElement;
 			const scrollableHeight = container.scrollHeight - window.innerHeight;
-			console.log("test");
+			console.log('test');
 			window.scrollTo({
-				top: scrollableHeight *0.85,
-				behavior: "smooth"
+				top: scrollableHeight * 0.85,
+				behavior: 'smooth'
 			});
-		})
+		});
 
 		if (!topStripA || !topStripB || !bottomStripA || !bottomStripB) {
 			return;
