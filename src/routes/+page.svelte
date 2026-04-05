@@ -13,6 +13,7 @@
 
 	const TOP_SPEED = 75;
 	const BOTTOM_SPEED = 75;
+	const WORD_SEPARATOR = ' ';
 
 	function startTeleportLoop(
 		stripA: HTMLDivElement,
@@ -155,9 +156,8 @@
 		{ type: 'word', text: "We're" },
 		{ type: 'word', text: 'looking' },
 		{ type: 'word', text: 'for' },
-		{ type: 'word', text: 'a' },
-		{ type: 'word', text: 'storyteller', bold: true, accent: true},
-		{ type: 'word', text: '— someone'},
+		{ type: 'word', text: 'storytellers', bold: true, accent: true },
+		{ type: 'word', text: '— people' },
 		{ type: 'word', text: 'who' },
 		{ type: 'word', text: 'can' },
 		{ type: 'word', text: 'use' },
@@ -169,13 +169,13 @@
 		{ type: 'word', text: 'into' },
 		{ type: 'word', text: 'our' },
 		{ type: 'word', text: 'world —' },
-		{ type: 'word', text: 'and'},
+		{ type: 'word', text: 'and' },
 		{ type: 'word', text: "we're" },
 		{ type: 'word', text: 'looking' },
 		{ type: 'word', text: 'for' },
 		{ type: 'word', text: 'you' },
 		{ type: 'word', text: 'to' },
-		{ type: 'underline', text: 'tell our stories.' },
+		{ type: 'underline', text: 'tell our stories.' }
 	];
 
 	let heroScrollContainer: HTMLDivElement | undefined;
@@ -207,7 +207,6 @@
 				const start = (i / (total - 1)) * (1 - fadeWindow);
 				const wp = Math.max(0, Math.min(1, (wordProgress - start) / fadeWindow));
 				word.style.opacity = String(wp);
-				word.style.top = `${(1 - wp) * 10}px`;
 
 				// Trigger underline draw once the span is mostly faded in
 				if (word.classList.contains('typing-underline')) {
@@ -216,7 +215,7 @@
 			});
 
 			// Top carousel slides up, bottom carousel fades out: progress 0.85→1.0
-			const carouselProgress = Math.max(0, Math.min(1, (progress - 0.92) / 0.08));
+			const carouselProgress = Math.max(0, Math.min(1, (progress - 0.93) / 0.07));
 			if (carouselTop) {
 				carouselTop.style.transform = `translateY(${-carouselProgress * 110}%)`;
 				carouselTop.style.opacity = String(1 - carouselProgress);
@@ -289,14 +288,12 @@
 					{#if token.type === 'break'}
 						<br class="typing-word" />
 					{:else if token.type === 'underline'}
-						<span class="typing-word typing-underline">{token.text}</span>{' '}
+						<span class="typing-word typing-underline">{token.text}</span>{WORD_SEPARATOR}
+					{:else if token.accent}
+						<span class="typing-word accent">{token.text}</span>{WORD_SEPARATOR}
 					{:else}
-						{#if token.accent}
-							<span class="typing-word accent">{token.text}</span>{' '}
-						{:else}
-							<span class="typing-word">{token.text}</span>{' '}
-						{/if}
-						{/if}
+						<span class="typing-word">{token.text}</span>{WORD_SEPARATOR}
+					{/if}
 				{/each}
 			</p>
 		</div>
@@ -304,7 +301,7 @@
 </div>
 
 <section class="fellowship-section">
-	<h2 class="fellowship-title">Introducing the Hack Club Media Gap Year Fellowship</h2>
+	<h2 class="title">Introducing the Hack Club Media Gap Year Fellowship</h2>
 	<p class="fellowship-body">
 		This is a paid full-time in person role. $50k/year + all travel covered + healthcare & benefits.
 		It's intended to be something you do for a year before you go to college or whatever your plans
@@ -317,5 +314,18 @@
 	<br />
 	<div class="button">
 		<a id="applyButton" href="https://example.com">Apply Now (x days remaining)</a>
+	</div>
+</section>
+
+<section class="hwyd-section">
+	<h2 class="title">Here's what you'll do.</h2>
+	<div class="hwyd-panel right">
+		<div class="panel-text">
+			<h3 class="stitle">Travel to Hack Club events</h3>
+			<p class="sbody">
+				Hack Club hosts hundreds of events across the globe every year. You'll promote, attend,
+				document, and create content for them.
+			</p>
+		</div>
 	</div>
 </section>
