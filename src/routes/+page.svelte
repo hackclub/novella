@@ -129,8 +129,8 @@
 			const heroFade = Math.max(0, Math.min(1, (progress - 0.2) / 0.18));
 			if (heroEl) heroEl.style.opacity = String(1 - heroFade);
 
-			// Words type in: progress 0.38→0.8 (carousels still visible as backdrop)
-			const wordProgress = Math.max(0, Math.min(1, (progress - 0.38) / 0.42));
+			// Words type in: progress 0.38→0.85 (carousels still visible as backdrop)
+			const wordProgress = Math.max(0, Math.min(1, (progress - 0.38) / 0.47));
 			const fadeWindow = 3 / total;
 
 			typingWordEls.forEach((word, i) => {
@@ -140,10 +140,10 @@
 				word.style.top = `${(1 - wp) * 10}px`;
 			});
 
-			// Carousels slide off only after typing is done: progress 0.8→1.0
-			const carouselProgress = Math.max(0, Math.min(1, (progress - 0.8) / 0.2));
+			// Top carousel slides up, bottom carousel fades out: progress 0.85→1.0
+			const carouselProgress = Math.max(0, Math.min(1, (progress - 0.85) / 0.15));
 			if (carouselTop) carouselTop.style.transform = `translateY(${-carouselProgress * 110}%)`;
-			if (carouselBottom) carouselBottom.style.transform = `translateY(${carouselProgress * 110}%)`;
+			if (carouselBottom) carouselBottom.style.opacity = String(1 - carouselProgress);
 		};
 
 		window.addEventListener('scroll', onScroll, { passive: true });
