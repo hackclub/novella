@@ -310,7 +310,10 @@
 	<div class="hwyd-panel right">
 		<div class="panel-text">
 			<h3 class="stitle">Travel to Hack Club events</h3>
-			<p class="sbody">Hack Club hosts hundreds of events across the globe every year. You'll promote, attend, document, and create content for them.</p>
+			<p class="sbody">
+				Hack Club hosts hundreds of events across the globe every year. You'll promote, attend,
+				document, and create content for them.
+			</p>
 		</div>
 	</div>
 </section>
