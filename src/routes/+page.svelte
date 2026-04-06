@@ -329,3 +329,8 @@
 		</div>
 	</div>
 </section>
+
+<section class="footer">
+	<p>© 2026 <u><a href="https://hackclub.com">Hack Club</a></u>. 501(c)(3) nonprofit (EIN: 81-2908499)</p>
+	<p>Site designed with &lt;3 by [TBA].</p>
+</section>

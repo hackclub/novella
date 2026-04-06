@@ -284,3 +284,11 @@ body {
 .typing-underline.underline-visible::after {
 	transform: scaleX(1);
 }
+
+.footer{
+	margin-top: 5rem;
+	text-align: center;
+	font-family: "Glyseric", "serif";
+	color: var(--color-overlay-medium);
+	padding: 2rem 30vw;
+}
