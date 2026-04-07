@@ -279,6 +279,39 @@ body {
 	text-align: right;
 }
 
+/* Mobile styles for hwyd section */
+@media (max-width: 768px) {
+	.hwyd-section {
+		width: 90vw;
+		gap: 4rem;
+		padding: 2rem 0;
+	}
+
+	.hwyd-panel {
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.panel-img {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.panel-text {
+		width: 100%;
+	}
+
+	.left,
+	.right {
+		text-align: center;
+	}
+
+	/* Reorder second panel so image comes first on mobile */
+	.hwyd-panel:nth-child(3) .panel-img {
+		order: -1;
+	}
+}
+
 .stitle {
 	font-size: clamp(1.5rem, 3vw, 2.75rem);
 	color: var(--color-text);
