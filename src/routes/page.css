@@ -400,8 +400,9 @@ body {
 	text-align: center;
 	font-family: 'Glyseric', 'serif';
 	color: var(--color-overlay-medium);
-	padding: 2rem 30vw;
-	font-size: 0.75vw;
+	padding: 2rem;
+	font-size: clamp(14px, 0.75vw, 9999px);
+	width: 100vw;
 }
 
 u {
