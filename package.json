@@ -16,7 +16,7 @@
 		"test": "npm run test:e2e"
 	},
 	"devDependencies": {
-		"@eslint/compat": "^2.0.3",
+		"@eslint/compat": "^2.0.4",
 		"@eslint/js": "^10.0.1",
 		"@playwright/test": "^1.58.2",
 		"@sveltejs/adapter-auto": "^7.0.0",
