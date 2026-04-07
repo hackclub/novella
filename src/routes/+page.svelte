@@ -3,6 +3,14 @@
 	import { bottomCarouselImages, topCarouselImages } from '$lib/carousel';
 	import './page.css';
 
+	//** IMPORTANT: CHANGE LATER TO ACTUAL DUE DATE FOR APPLICATION **
+	const DUE_YEAR:number = 2026;
+	const DUE_MONTH:number = 12;
+	const DUE_DAY:number = 31;
+
+	const dueDate: Date = new Date(DUE_YEAR, DUE_MONTH-1, DUE_DAY);
+	const daysUntilDue:number	= Math.ceil((dueDate.getTime() - Date.now())/86400000);
+
 	const topStripImages = [...topCarouselImages, ...topCarouselImages];
 	const bottomStripImages = [...bottomCarouselImages, ...bottomCarouselImages];
 
@@ -318,7 +326,7 @@
 		> Make Hack Club a household name. Reach new audiences and as many teens as you can.
 	</p>
 	<div class="button">
-		<a id="applyButton" href="https://example.com">Apply Now (x days remaining)</a>
+		<a id="applyButton" href="https://example.com">Apply Now ({daysUntilDue} days remaining)</a>
 	</div>
 </section>
 
