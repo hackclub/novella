@@ -324,12 +324,45 @@
 
 <section class="hwyd-section">
 	<h2 class="title">Here's what you'll do.</h2>
-	<div class="hwyd-panel right">
-		<div class="panel-text">
-			<h3 class="stitle">Travel to Hack Club events</h3>
+	<div class="hwyd-panel">
+		<img
+			class="panel-img left"
+			alt="Collage of Hack Club events"
+			src="https://cdn.hackclub.com/019d6191-88a7-7daa-b4c0-fdcae2fffa38/attend_hc_events.png"
+		/>
+		<div class="panel-text right">
+			<h3 class="stitle">Travel the world for Hack Club events</h3>
 			<p class="sbody">
 				Hack Club hosts hundreds of events across the globe every year. You'll promote, attend,
 				document, and create content for them.
+			</p>
+		</div>
+	</div>
+	<div class="hwyd-panel">
+		<div class="panel-text left">
+			<h3 class="stitle">Run our social media</h3>
+			<p class="sbody">
+				Own our presence across YouTube, Instagram, TikTok, Twitter, and more. You'll post
+				frequently and craft compelling stories alongside our community.
+			</p>
+		</div>
+		<img
+			class="panel-img right"
+			alt="Collage of Hack Club events"
+			src="https://cdn.hackclub.com/019d6191-88a7-7daa-b4c0-fdcae2fffa38/attend_hc_events.png"
+		/>
+	</div>
+	<div class="hwyd-panel">
+		<img
+			class="panel-img left"
+			alt="Michael Reeves that I stole off the internet"
+			src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/mykull_6.png"
+		/>
+		<div class="panel-text right">
+			<h3 class="stitle">Get mentored by Open Sauce creators</h3>
+			<p class="sbody">
+				Work directly with creators from Open Sauce — including Michael Reeves and William Osman —
+				receiving hands-on mentorship while collaborating on content.
 			</p>
 		</div>
 	</div>

@@ -1,36 +1,37 @@
 #scroll-down {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    width: min(92vw, 72rem);
-    max-width: 40ch; 
-    
-    font-family: 'Glyseric';
-    font-size: clamp(0.9rem, 2vh, 1.25rem); 
-    line-height: 1.2;
-    color: var(--color-text-muted);
-    
-    margin: clamp(1rem, 4vh, 2.5rem) auto 0;
-    gap: 0.5em;
-    cursor: pointer;
-    text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: min(92vw, 72rem);
+	max-width: 40ch;
+
+	font-family: 'Glyseric';
+	font-size: clamp(0.9rem, 2vh, 1.25rem);
+	line-height: 1.2;
+	color: var(--color-text-muted);
+
+	margin: clamp(1rem, 4vh, 2.5rem) auto 0;
+	gap: 0.5em;
+	cursor: pointer;
+	text-align: center;
 }
 
 #scroll-down-arrow {
-    font-size: 1.2em;
-    display: inline-block;
-    will-change: transform;
-    animation: scroll-down-arrow 2s infinite;
+	font-size: 1.2em;
+	display: inline-block;
+	will-change: transform;
+	animation: scroll-down-arrow 2s infinite;
 }
 
 @keyframes scroll-down-arrow {
-    0%, 100% {
-        transform: translateY(-0.1em);
-    }
-    50% {
-        transform: translateY(0.1em);
-    }
+	0%,
+	100% {
+		transform: translateY(-0.1em);
+	}
+	50% {
+		transform: translateY(0.1em);
+	}
 }
 *::-webkit-scrollbar {
 	width: 0 !important;
@@ -248,31 +249,79 @@ body {
 .hwyd-section {
 	margin: auto;
 	width: 80vw;
+	display: flex;
+	flex-direction: column;
+	gap: 8rem;
 }
 
 .hwyd-panel {
-	width: 100%;
 	display: flex;
+	align-items: center;
+	gap: 8rem;
+	margin: 0 auto;
+}
+
+.panel-img {
+	flex: 1;
+	max-width: 40%;
+	height: auto;
+	display: block;
 }
 
 .panel-text {
-	width: 50%;
+	flex: 1;
+}
+
+.left {
+	text-align: left;
 }
 
 .right {
 	text-align: right;
-	justify-content: flex-end;
+}
+
+/* Mobile styles for hwyd section */
+@media (max-width: 768px) {
+	.hwyd-section {
+		width: 90vw;
+		gap: 4rem;
+		padding: 2rem 0;
+	}
+
+	.hwyd-panel {
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.panel-img {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.panel-text {
+		width: 100%;
+	}
+
+	.left,
+	.right {
+		text-align: center;
+	}
+
+	/* Reorder second panel so image comes first on mobile */
+	.hwyd-panel:nth-child(3) .panel-img {
+		order: -1;
+	}
 }
 
 .stitle {
-	font-size: clamp(1.25rem, 3vw, 2.25rem);
+	font-size: clamp(1.5rem, 3vw, 2.75rem);
 	color: var(--color-text);
 	font-family: var(--font-serif);
 }
 
 .sbody {
 	font-family: 'Glyseric';
-	font-size: clamp(1rem, 1vw, 1.5rem);
+	font-size: clamp(1.1rem, 1.35vw, 1.85rem);
 	color: var(--color-text-dim);
 }
 
