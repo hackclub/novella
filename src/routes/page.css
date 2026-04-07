@@ -291,8 +291,9 @@
 	}
 
 	.carousel-viewport {
-		--card-width: 240px;
-		--card-height: 160px;
+		/*--card-width: 240px;*/
+		--carousel-gap: 8px;
+		--card-height: clamp(80px, 11dvh, 130px);
 	}
 
 	.fellowship-section {
@@ -301,6 +302,11 @@
 
 	.title {
 		font-size: clamp(1.25rem, 5vw, 2rem);
+	}
+
+	#title {
+		line-height: 120%;
+		margin-bottom: 2vh;
 	}
 }
 
