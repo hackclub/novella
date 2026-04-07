@@ -342,18 +342,24 @@ body {
 	line-height: 1.6;
 }
 
-#scroll-down{
-	text-align:center;
+#scroll-down {
+	text-align: center;
 	margin-top: 4vh;
-	font-family: 'Glyseric', "serif";
+	font-family: 'Glyseric', 'serif';
 	color: var(--color-overlay-medium);
 	cursor: pointer;
 }
 
-@keyframes scroll-down-arrow{
-	0% {transform: translateY(-2px)}
-	50% {transform: translateY(2px)}
-	100% {transform: translateY(-2px)}
+@keyframes scroll-down-arrow {
+	0% {
+		transform: translateY(-2px);
+	}
+	50% {
+		transform: translateY(2px);
+	}
+	100% {
+		transform: translateY(-2px);
+	}
 }
 
 #scroll-down-arrow {
@@ -392,10 +398,10 @@ body {
 .footer {
 	margin-top: 5rem;
 	text-align: center;
-	font-family: "Glyseric", "serif";
+	font-family: 'Glyseric', 'serif';
 	color: var(--color-overlay-medium);
 	padding: 2rem 30vw;
-	font-size: 0.75vw
+	font-size: 0.75vw;
 }
 
 u {

@@ -369,6 +369,14 @@
 </section>
 
 <section class="footer">
-	<p>© 2026 <u><a href="https://hackclub.com">Hack Club</a></u>. 501(c)(3) nonprofit (EIN: 81-2908499)</p>
-	<p>made with &lt;3 by <u><a href="https://github.com/hellonearth311">hellonearth311</a></u>, <u><a href="https://github.com/sadeshmukh">sadeshmukh</a></u>, <u><a href="https://github.com/maxstellar">maxstellar</a></u>, and <u><a href="https://github.com/astratheboop">astra celestine</a></u>.</p>
+	<p>
+		© 2026 <u><a href="https://hackclub.com">Hack Club</a></u>. 501(c)(3) nonprofit (EIN:
+		81-2908499)
+	</p>
+	<p>
+		made with &lt;3 by <u><a href="https://github.com/hellonearth311">hellonearth311</a></u>,
+		<u><a href="https://github.com/sadeshmukh">sadeshmukh</a></u>,
+		<u><a href="https://github.com/maxstellar">maxstellar</a></u>, and
+		<u><a href="https://github.com/astratheboop">astra celestine</a></u>.
+	</p>
 </section>
