@@ -262,7 +262,9 @@
 					/>
 					<h1 id="title">tell our stories.</h1>
 					<p id="body">
-						Hack Club is hiring 2 teenagers to record the stories of the next generation of <strong style="font-weight: 900; color: #ec3750;">hackers</strong>.
+						Hack Club is hiring 2 teenagers to record the stories of the next generation of <strong
+							style="font-weight: 900; color: #ec3750;">hackers</strong
+						>.
 					</p>
 				</div>
 				<p id="scroll-down">Scroll down to read <span id="scroll-down-arrow">↓</span></p>
