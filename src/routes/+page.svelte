@@ -22,6 +22,9 @@
 	const TOP_SPEED = 75;
 	const BOTTOM_SPEED = 75;
 	const WORD_SEPARATOR = ' ';
+	const HERO_HIGHLIGHT_WORDS = ['hackers', 'builders', 'programmers'];
+
+	let heroHighlightWordIndex = $state(0);
 
 	function startTeleportLoop(
 		stripA: HTMLDivElement,
@@ -119,10 +122,15 @@
 			return;
 		}
 
+		const heroWordInterval = window.setInterval(() => {
+			heroHighlightWordIndex = (heroHighlightWordIndex + 1) % HERO_HIGHLIGHT_WORDS.length;
+		}, 1500);
+
 		const stopTop = startTeleportLoop(topStripA, topStripB, -1, TOP_SPEED);
 		const stopBottom = startTeleportLoop(bottomStripA, bottomStripB, 1, BOTTOM_SPEED);
 
 		return () => {
+			window.clearInterval(heroWordInterval);
 			stopTop();
 			stopBottom();
 		};
@@ -270,9 +278,12 @@
 					/>
 					<h1 id="title">tell our stories.</h1>
 					<p id="body">
-						Hack Club is hiring 2 teenagers to record the stories of the next generation of <strong
-							style="font-weight: 900; color: #ec3750;">hackers</strong
-						>.
+						Hack Club is hiring 2 teenagers to record the stories of the next generation of
+						<strong class="hero-highlight"
+							>{#key heroHighlightWordIndex}<span
+								class="hero-highlight-word"
+							>{HERO_HIGHLIGHT_WORDS[heroHighlightWordIndex]}.</span>{/key}</strong
+						>
 					</p>
 				</div>
 				<p id="scroll-down">Scroll down to read <span id="scroll-down-arrow">↓</span></p>

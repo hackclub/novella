@@ -138,6 +138,35 @@
 	color: var(--color-text);
 }
 
+.hero-highlight {
+	font-weight: 900;
+	color: #ec3750;
+}
+
+.hero-highlight-word {
+	display: inline-block;
+	will-change: transform;
+	animation: hero-highlight-shake 260ms ease-in-out;
+}
+
+@keyframes hero-highlight-shake {
+	0% {
+		transform: translateX(0);
+	}
+	25% {
+		transform: translateX(-0.06em) rotate(-1deg);
+	}
+	50% {
+		transform: translateX(0.07em) rotate(1deg);
+	}
+	75% {
+		transform: translateX(-0.04em) rotate(-0.7deg);
+	}
+	100% {
+		transform: translateX(0) rotate(0deg);
+	}
+}
+
 #applyButton {
 	font-size: clamp(13px, 2.5vw, 25px);
 	background-color: var(--color-bg);
