@@ -130,17 +130,20 @@
 	text-align: center;
 }
 
-.hero-body-wrapper {
-	display: grid;
-}
-
 #body {
-	grid-area: 1 / 1;
 	max-width: 40ch;
 	overflow-wrap: anywhere;
 	font-size: clamp(16px, 3vh, 35px);
 	text-align: center;
 	color: var(--color-text);
+}
+
+.hero-body-crossfade-wrapper {
+	display: inline-grid;
+}
+
+.hero-body-crossfade-wrapper > * {
+	grid-area: 1 / 1;
 	will-change: opacity;
 }
 
