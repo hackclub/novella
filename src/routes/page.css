@@ -261,11 +261,14 @@
 	max-width: 40%;
 	height: auto;
 	display: block;
-	transition: transform 0.3s ease;
+	transition:
+		transform 0.3s ease,
+		filter 0.3s ease;
 }
 
 .panel-img:hover {
-	transform: scale(1.05);
+	transform: scale(1.03);
+	filter: brightness(1.1);
 }
 
 .panel-text {
@@ -421,6 +424,7 @@ u:hover {
 	align-items: center;
 	justify-content: center;
 	background: var(--color-bg);
+	margin-bottom: 11vh;
 }
 
 .hc-body {
@@ -871,4 +875,38 @@ u:hover {
 #shipwrecked {
 	width: clamp(250px, 35vw, 750px);
 	height: clamp(100px, 35vh, 750px);
+}
+
+@media (max-width: 768px) {
+	#videos-container {
+		flex-direction: column;
+	}
+
+	#undercity,
+	#shipwrecked {
+		width: 100%;
+		height: clamp(180px, 50vw, 400px);
+	}
+
+	.videos-body {
+		max-width: 100%;
+	}
+
+	/* hack-club-section */
+	.hack-club-section {
+		padding: 0 clamp(1rem, 5vw, 2rem);
+	}
+
+	.hack-club-section .button-container {
+		gap: 3vw;
+	}
+
+	.hack-club-section #linkButton svg {
+		width: 32px;
+		height: 32px;
+	}
+
+	.hc-body {
+		padding: 0 1rem;
+	}
 }

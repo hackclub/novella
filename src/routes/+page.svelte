@@ -418,34 +418,33 @@
 		We are a 501(c)(3) global non-profit organization based in the United States. We create real
 		adventures, online programs, and provide community for technical teenagers. [To be continued]
 	</p>
-</section>
-
-<section class="videos-body">
-	<h1 class="title">Some videos we've posted before:</h1>
-	<div id="videos-container">
-		<iframe
-			id="undercity"
-			width="560"
-			height="315"
-			src="https://www.youtube-nocookie.com/embed/kaEFv7e49mo?si=uYq4Ee3RWX6rqfBv&amp;controls=0"
-			title="YouTube video player"
-			frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-			referrerpolicy="strict-origin-when-cross-origin"
-			allowfullscreen
-		></iframe>
-		<iframe
-			id="shipwrecked"
-			width="560"
-			height="315"
-			src="https://www.youtube-nocookie.com/embed/uXWMr0gdLJA?si=Vb4hK6MBO0E5RDWB&amp;controls=0"
-			title="YouTube video player"
-			frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-			referrerpolicy="strict-origin-when-cross-origin"
-			allowfullscreen
-		></iframe>
-	</div>
+	<section class="videos-body">
+		<h1 class="title">Some videos we've posted before:</h1>
+		<div id="videos-container">
+			<iframe
+				id="undercity"
+				width="560"
+				height="315"
+				src="https://www.youtube-nocookie.com/embed/kaEFv7e49mo?si=uYq4Ee3RWX6rqfBv&amp;controls=0"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				referrerpolicy="strict-origin-when-cross-origin"
+				allowfullscreen
+			></iframe>
+			<iframe
+				id="shipwrecked"
+				width="560"
+				height="315"
+				src="https://www.youtube-nocookie.com/embed/uXWMr0gdLJA?si=Vb4hK6MBO0E5RDWB&amp;controls=0"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				referrerpolicy="strict-origin-when-cross-origin"
+				allowfullscreen
+			></iframe>
+		</div>
+	</section>
 </section>
 
 <section class="past-events">
@@ -694,8 +693,8 @@
 		<div class="panel-text left">
 			<h3 class="stitle">Run our social media</h3>
 			<p class="sbody">
-				Be responsible for our social media presence across YouTube, Instagram, TikTok, Twitter, and
-				more. Meet Hack Clubbers and
+				You'll have full control over our social media presence across YouTube, Instagram, TikTok,
+				Twitter, and more. Make videos + films about all the amazing people you'll meet.
 			</p>
 		</div>
 		<img class="panel-img right" alt="Collage of Hack Clubbers doing media" src="og.png" />
@@ -709,7 +708,7 @@
 		<div class="panel-text right">
 			<h3 class="stitle">Get mentored by Open Sauce creators</h3>
 			<p class="sbody">
-				Work directly with creators from Open Sauce, like Michael Reeves and William Osman,
+				You'll work directly with creators from Open Sauce, like Michael Reeves and William Osman,
 				receiving hands-on mentorship and collaborating on content.
 			</p>
 		</div>
@@ -741,5 +740,10 @@
 		<u><a href="https://github.com/maxstellar">maxstellar</a></u>, and
 		<u><a href="https://github.com/astra-the-boop">astra celestine</a></u>.
 		<u><a href="https://github.com/hackclub/novella">always OSS</a>.</u>
+		<br />
+		heavily inspired by
+		<u><a href="https://manifesto.hackclub.com/">manifesto</a></u>
+		and
+		<u><a href="https://github.com/techpixel">manitej</a></u>.
 	</p>
 </section>
