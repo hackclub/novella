@@ -834,3 +834,28 @@ u:hover {
 	50%  { transform: scaleX(0); transform-origin: left; }
 	100% { transform: scaleX(1); transform-origin: left; }
 }
+
+#videos-container{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	gap: 2vw;
+}
+
+.videos-body{
+	max-width: 80%;
+	margin: auto auto 5rem auto;
+	text-align: center;
+}
+
+.videos-body .title{
+	color: var(--color-text-dim);
+	margin-bottom: 3rem;
+}
+
+#undercity, #shipwrecked{
+	width: clamp(250px, 35vw, 750px);
+	height: clamp(100px, 35vh, 750px);
+}
