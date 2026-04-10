@@ -423,8 +423,28 @@
 <section class="videos-body">
 	<h1 class="title">Some videos we've posted before:</h1>
 	<div id="videos-container">
-		<iframe id="undercity" width="560" height="315" src="https://www.youtube-nocookie.com/embed/kaEFv7e49mo?si=uYq4Ee3RWX6rqfBv&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		<iframe id="shipwrecked" width="560" height="315" src="https://www.youtube-nocookie.com/embed/uXWMr0gdLJA?si=Vb4hK6MBO0E5RDWB&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<iframe
+			id="undercity"
+			width="560"
+			height="315"
+			src="https://www.youtube-nocookie.com/embed/kaEFv7e49mo?si=uYq4Ee3RWX6rqfBv&amp;controls=0"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+		></iframe>
+		<iframe
+			id="shipwrecked"
+			width="560"
+			height="315"
+			src="https://www.youtube-nocookie.com/embed/uXWMr0gdLJA?si=Vb4hK6MBO0E5RDWB&amp;controls=0"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+		></iframe>
 	</div>
 </section>
 
