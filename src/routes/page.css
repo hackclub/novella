@@ -516,3 +516,22 @@ u:hover {
 .hack-club-section .hc-body {
 	margin-bottom: clamp(2rem, 5vh, 4rem);
 }
+
+.past-events{
+	margin: auto auto 10vh auto;
+	width: 80vw;
+	display: flex;
+	flex-direction: column;
+	gap: 8rem;
+}
+
+.past-events .stitle{
+	text-align: left;
+	color: var(--color-text-dim);
+	font-size: clamp(1.4rem, 2.3vw, 2.75rem);
+}
+
+#events-container {
+	display: flex;
+	flex-direction: row;
+}

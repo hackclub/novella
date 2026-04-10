@@ -381,6 +381,17 @@
 	</div>
 </section>
 
+<section class="past-events">
+	<h1 class="stitle">In the past year, we have organized [PLACEHOLDER]</h1>
+	<div id="eventcard-container">
+		<div></div>
+	</div>
+</section>
+
+<section class="blogs">
+
+</section>
+
 <section class="hwyd-section">
 	<h2 class="title">Here's what you'll do.</h2>
 	<div class="hwyd-panel">
