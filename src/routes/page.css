@@ -942,10 +942,11 @@ u:hover {
 	margin-bottom: 3rem;
 }
 
-#undercity,
+#fallout,
 #shipwrecked {
+	aspect-ratio: 16 / 9;
 	width: clamp(250px, 35vw, 750px);
-	height: clamp(100px, 35vh, 750px);
+	height: auto;
 }
 
 @media (max-width: 768px) {
@@ -953,10 +954,10 @@ u:hover {
 		flex-direction: column;
 	}
 
-	#undercity,
+	#fallout,
 	#shipwrecked {
 		width: 100%;
-		height: clamp(180px, 50vw, 400px);
+		height: auto;
 	}
 
 	.videos-body {

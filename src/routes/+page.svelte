@@ -4,7 +4,6 @@
 	import { bottomCarouselImages, topCarouselImages } from '$lib/carousel';
 	import './page.css';
 
-	//** IMPORTANT: CHANGE LATER TO ACTUAL DUE DATE FOR APPLICATION **
 	const DUE_YEAR: number = 2026;
 	const DUE_MONTH: number = 4;
 	const DUE_DAY: number = 24;
@@ -23,7 +22,7 @@
 	const TOP_SPEED = 75;
 	const BOTTOM_SPEED = 75;
 	const WORD_SEPARATOR = ' ';
-	const HERO_HIGHLIGHT_WORDS = ['hackers', 'builders', 'programmers'];
+	const HERO_HIGHLIGHT_WORDS = ['hackers', 'builders', 'programmers', 'artists'];
 
 	let heroHighlightWordIndex = $state(0);
 
@@ -125,7 +124,7 @@
 
 		const heroWordInterval = window.setInterval(() => {
 			heroHighlightWordIndex = (heroHighlightWordIndex + 1) % HERO_HIGHLIGHT_WORDS.length;
-		}, 1500);
+		}, 2000);
 
 		const stopTop = startTeleportLoop(topStripA, topStripB, -1, TOP_SPEED);
 		const stopBottom = startTeleportLoop(bottomStripA, bottomStripB, 1, BOTTOM_SPEED);
@@ -182,6 +181,9 @@
 		{ type: 'word', text: 'use' },
 		{ type: 'word', text: 'a' },
 		{ type: 'word', text: 'camera' },
+		{ type: 'word', text: 'or' },
+		{ type: 'word', text: 'a' },
+		{ type: 'word', text: 'stylus' },
 		{ type: 'word', text: 'as' },
 		{ type: 'word', text: 'a' },
 		{ type: 'word', text: 'window' },
@@ -434,9 +436,9 @@
 		</div>
 	</div>
 	<p class="hc-body">
-		We are a 501(c)(3) global non-profit organization based in the United States. We create real
-		adventures, online programs, and provide community for technical teenagers! Every year, our
-		community creates thousands of projects, and we ship out thousands of prizes, including grants
+		We are a 501(c)(3) global non-profit organization based in the United States. We host real
+		adventures, run online programs, and provide community for technical teenagers! Every year, our
+		community creates thousands of amazing projects, and we ship out thousands of cool prizes, from stickers to laptops to plushies of our mascot!
 	</p>
 	<section class="videos-body">
 		<h1 class="title">Some videos we've posted before:</h1>
