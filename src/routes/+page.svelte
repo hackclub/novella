@@ -373,10 +373,48 @@
 	</p>
 	<div class="button-container">
 		<div class="button">
-			<a id="linkButton" href="https://www.youtube.com/channel/UCQzO0jpcRkP-9eWKMpJyB0w"><svg fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" xmlns="http://www.w3.org/2000/svg" aria-label="youtube" viewBox="0 0 32 32" preserveAspectRatio="xMidYMid meet" fill="currentColor" width="48" height="48" title="youtube"><path d="M20.0065 15.7665L13.5265 19.1265L13.522 12.384L20.0065 15.7665Z"></path><path d="M15.7501 6C20.8501 6 22.9971 6.576 24.0861 7.665C25.1751 8.754 25.7501 10.9 25.7501 16C25.7501 21.1 25.1751 23.247 24.0861 24.336C22.9971 25.425 20.8501 26 15.7501 26C10.6501 26 8.50306 25.425 7.41406 24.336C6.32506 23.247 5.75006 21.1 5.75006 16C5.75006 10.9 6.32506 8.753 7.41406 7.665C8.50306 6.576 10.6501 6 15.7501 6ZM27.7501 16C27.7501 6 25.7501 4 15.7501 4C5.75006 4 3.75006 6 3.75006 16C3.75006 26 5.75006 28 15.7501 28C25.7501 28 27.7501 26 27.7501 16Z"></path></svg></a>
+			<a id="linkButton" href="https://www.youtube.com/channel/UCQzO0jpcRkP-9eWKMpJyB0w"
+				><svg
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					stroke-linejoin="round"
+					stroke-miterlimit="1.414"
+					xmlns="http://www.w3.org/2000/svg"
+					aria-label="youtube"
+					viewBox="0 0 32 32"
+					preserveAspectRatio="xMidYMid meet"
+					fill="currentColor"
+					width="48"
+					height="48"
+					title="youtube"
+					><path d="M20.0065 15.7665L13.5265 19.1265L13.522 12.384L20.0065 15.7665Z"></path><path
+						d="M15.7501 6C20.8501 6 22.9971 6.576 24.0861 7.665C25.1751 8.754 25.7501 10.9 25.7501 16C25.7501 21.1 25.1751 23.247 24.0861 24.336C22.9971 25.425 20.8501 26 15.7501 26C10.6501 26 8.50306 25.425 7.41406 24.336C6.32506 23.247 5.75006 21.1 5.75006 16C5.75006 10.9 6.32506 8.753 7.41406 7.665C8.50306 6.576 10.6501 6 15.7501 6ZM27.7501 16C27.7501 6 25.7501 4 15.7501 4C5.75006 4 3.75006 6 3.75006 16C3.75006 26 5.75006 28 15.7501 28C25.7501 28 27.7501 26 27.7501 16Z"
+					></path></svg
+				></a
+			>
 		</div>
 		<div class="button">
-			<a id="linkButton" href="https://www.instagram.com/starthackclub/"><svg fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" xmlns="http://www.w3.org/2000/svg" aria-label="instagram" viewBox="0 0 32 32" preserveAspectRatio="xMidYMid meet" fill="currentColor" width="48" height="48" title="instagram"><path d="M16 6c5.1 0 7.247.575 8.336 1.664C25.425 8.753 26 10.9 26 16s-.575 7.247-1.664 8.336C23.247 25.425 21.1 26 16 26s-7.247-.575-8.336-1.664C6.575 23.247 6 21.1 6 16s.575-7.247 1.664-8.336C8.753 6.575 10.9 6 16 6zm0-2c10 0 12 2 12 12s-2 12-12 12S4 26 4 16 6 4 16 4z"></path><path d="M16 9.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 1 0 0-12.324zM16 20a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm7.845-10.405a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"></path></svg></a>
+			<a id="linkButton" href="https://www.instagram.com/starthackclub/"
+				><svg
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					stroke-linejoin="round"
+					stroke-miterlimit="1.414"
+					xmlns="http://www.w3.org/2000/svg"
+					aria-label="instagram"
+					viewBox="0 0 32 32"
+					preserveAspectRatio="xMidYMid meet"
+					fill="currentColor"
+					width="48"
+					height="48"
+					title="instagram"
+					><path
+						d="M16 6c5.1 0 7.247.575 8.336 1.664C25.425 8.753 26 10.9 26 16s-.575 7.247-1.664 8.336C23.247 25.425 21.1 26 16 26s-7.247-.575-8.336-1.664C6.575 23.247 6 21.1 6 16s.575-7.247 1.664-8.336C8.753 6.575 10.9 6 16 6zm0-2c10 0 12 2 12 12s-2 12-12 12S4 26 4 16 6 4 16 4z"
+					></path><path
+						d="M16 9.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 1 0 0-12.324zM16 20a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm7.845-10.405a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"
+					></path></svg
+				></a
+			>
 		</div>
 	</div>
 </section>
@@ -385,87 +423,223 @@
 	<h1 class="stitle">In the past year, we have organized [PLACEHOLDER]</h1>
 	<div class="programs-grid">
 		<a class="program-card" href="https://flagship.hackclub.com" target="_blank" rel="noopener">
-			<img class="program-card-img" src="https://cdn.hackclub.com/019d75da-13a0-755c-9260-3a7a839e6c2b/image.png" alt="Campfire Flagship" />
-			<img class="program-card-logo" src="https://cdn.hackclub.com/019d75d9-1b8c-780a-a990-1c6b65473906/image.png" alt="Campfire Flagship logo" />
-			<p class="program-card-desc">A 3 day flagship game jam in Los Angeles with YouTubers like Michael Reeves, William Osman, and many more!</p>
+			<img
+				class="program-card-img"
+				src="https://cdn.hackclub.com/019d75da-13a0-755c-9260-3a7a839e6c2b/image.png"
+				alt="Campfire Flagship"
+			/>
+			<img
+				class="program-card-logo"
+				src="https://cdn.hackclub.com/019d75d9-1b8c-780a-a990-1c6b65473906/image.png"
+				alt="Campfire Flagship logo"
+			/>
+			<p class="program-card-desc">
+				A 3 day flagship game jam in Los Angeles with YouTubers like Michael Reeves, William Osman,
+				and many more!
+			</p>
 		</a>
 
 		<a class="program-card" href="https://midnight.hackclub.com" target="_blank" rel="noopener">
-			<img class="program-card-img" src="https://manifesto.hackclub.com/images/midnight.jpg" alt="Midnight" />
+			<img
+				class="program-card-img"
+				src="https://manifesto.hackclub.com/images/midnight.jpg"
+				alt="Midnight"
+			/>
 			<div class="midnight-logo">
-				<img class="front" src="https://manifesto.hackclub.com/images/midnight-logo.svg" alt="Midnight logo" />
+				<img
+					class="front"
+					src="https://manifesto.hackclub.com/images/midnight-logo.svg"
+					alt="Midnight logo"
+				/>
 			</div>
-			<p class="program-card-desc">A murder-mystery hackathon held in Austria, Vienna with 60+ teenagers from all across the world!</p>
+			<p class="program-card-desc">
+				A murder-mystery hackathon held in Austria, Vienna with 60+ teenagers from all across the
+				world!
+			</p>
 		</a>
 
 		<a class="program-card" href="https://blueprint.hackclub.com" target="_blank" rel="noopener">
-			<img class="program-card-img" src="https://manifesto.hackclub.com/images/blueprint.png" alt="Blueprint" />
-			<img class="program-card-logo" src="https://cdn.hackclub.com/019d75da-1a49-739f-8e97-b3f6f15961ce/image.png" alt="Blueprint logo" style="width:300px" />
-			<p class="program-card-desc">From October 2025 to March 2026, Blueprint gave $140,000 to fund 1,500 hardware and electronics projects built by 1000 teenagers from 77 countries</p>
+			<img
+				class="program-card-img"
+				src="https://manifesto.hackclub.com/images/blueprint.png"
+				alt="Blueprint"
+			/>
+			<img
+				class="program-card-logo"
+				src="https://cdn.hackclub.com/019d75da-1a49-739f-8e97-b3f6f15961ce/image.png"
+				alt="Blueprint logo"
+				style="width:300px"
+			/>
+			<p class="program-card-desc">
+				From October 2025 to March 2026, Blueprint gave $140,000 to fund 1,500 hardware and
+				electronics projects built by 1000 teenagers from 77 countries
+			</p>
 		</a>
 
 		<a class="program-card" href="https://siege.hackclub.com" target="_blank" rel="noopener">
-			<img class="program-card-img" src="https://manifesto.hackclub.com/images/siege.png" alt="Siege" />
-			<img class="program-card-logo" src="https://cdn.hackclub.com/019d75da-1ce9-7d50-9a52-53aadbfdfce7/image.png" alt="Siege logo" style="width:161px" />
-			<p class="program-card-desc">A 14 week event where 250 teens created a project each week to work towards a laptop with over 100 framework laptops given out.</p>
+			<img
+				class="program-card-img"
+				src="https://manifesto.hackclub.com/images/siege.png"
+				alt="Siege"
+			/>
+			<img
+				class="program-card-logo"
+				src="https://cdn.hackclub.com/019d75da-1ce9-7d50-9a52-53aadbfdfce7/image.png"
+				alt="Siege logo"
+				style="width:161px"
+			/>
+			<p class="program-card-desc">
+				A 14 week event where 250 teens created a project each week to work towards a laptop with
+				over 100 framework laptops given out.
+			</p>
 		</a>
 	</div>
 	<h2 id="andsomuchmore">... and so much more...</h2>
 	<div class="programs-more-grid">
-		<a class="mini-card" href="https://summer.hackclub.com" target="_blank" rel="noopener" style="background-image:url('https://manifesto.hackclub.com/images/summer-of-making.png');background-size:cover;background-position:bottom">
-			<img class="mini-card-logo" src="https://manifesto.hackclub.com/images/som-logo.png" alt="Summer of Making" style="width:60%;height:auto" />
+		<a
+			class="mini-card"
+			href="https://summer.hackclub.com"
+			target="_blank"
+			rel="noopener"
+			style="background-image:url('https://manifesto.hackclub.com/images/summer-of-making.png');background-size:cover;background-position:bottom"
+		>
+			<img
+				class="mini-card-logo"
+				src="https://manifesto.hackclub.com/images/som-logo.png"
+				alt="Summer of Making"
+				style="width:60%;height:auto"
+			/>
 		</a>
 
 		<a class="mini-card" href="https://campfire.hackclub.com" target="_blank" rel="noopener">
-			<img class="mini-card-bg" src="https://manifesto.hackclub.com/images/campfire-bg.png" alt="" />
-			<img class="mini-card-logo" src="https://manifesto.hackclub.com/images/campfire-logo.png" alt="Campfire" style="width:65%;height:auto" />
+			<img
+				class="mini-card-bg"
+				src="https://manifesto.hackclub.com/images/campfire-bg.png"
+				alt=""
+			/>
+			<img
+				class="mini-card-logo"
+				src="https://manifesto.hackclub.com/images/campfire-logo.png"
+				alt="Campfire"
+				style="width:65%;height:auto"
+			/>
 		</a>
 
-		<a class="mini-card" href="https://sleepover.hackclub.com" target="_blank" rel="noopener" style="background-color:#dbdcf7;background-image:url('https://manifesto.hackclub.com/images/sleepover-pattern.png');background-repeat:repeat;background-size:112px">
-			<img class="mini-card-logo" src="https://manifesto.hackclub.com/images/sleepover-logo.png" alt="Sleepover" style="width:60%;height:auto" />
+		<a
+			class="mini-card"
+			href="https://sleepover.hackclub.com"
+			target="_blank"
+			rel="noopener"
+			style="background-color:#dbdcf7;background-image:url('https://manifesto.hackclub.com/images/sleepover-pattern.png');background-repeat:repeat;background-size:112px"
+		>
+			<img
+				class="mini-card-logo"
+				src="https://manifesto.hackclub.com/images/sleepover-logo.png"
+				alt="Sleepover"
+				style="width:60%;height:auto"
+			/>
 		</a>
 
 		<a class="mini-card" href="https://overglade.hackclub.com" target="_blank" rel="noopener">
-			<img class="mini-card-bg" src="https://manifesto.hackclub.com/images/overglade.png" alt="Overglade" />
+			<img
+				class="mini-card-bg"
+				src="https://manifesto.hackclub.com/images/overglade.png"
+				alt="Overglade"
+			/>
 		</a>
 
-		<a class="mini-card" href="https://undercity.hackclub.com" target="_blank" rel="noopener" style="background:#171717">
-			<img class="mini-card-bg" src="https://manifesto.hackclub.com/images/undercity-bg.png" alt="" />
-			<img class="mini-card-logo" src="https://manifesto.hackclub.com/images/undercity-logo.png" alt="Undercity" style="width:65%;height:auto" />
+		<a
+			class="mini-card"
+			href="https://undercity.hackclub.com"
+			target="_blank"
+			rel="noopener"
+			style="background:#171717"
+		>
+			<img
+				class="mini-card-bg"
+				src="https://manifesto.hackclub.com/images/undercity-bg.png"
+				alt=""
+			/>
+			<img
+				class="mini-card-logo"
+				src="https://manifesto.hackclub.com/images/undercity-logo.png"
+				alt="Undercity"
+				style="width:65%;height:auto"
+			/>
 		</a>
 
 		<a class="mini-card" href="https://shiba.hackclub.com" target="_blank" rel="noopener">
 			<img class="mini-card-bg" src="https://manifesto.hackclub.com/images/shiba-bg.png" alt="" />
 			<div class="mini-card-overlay"></div>
-			<img class="mini-card-logo" src="https://manifesto.hackclub.com/images/shiba-logo.png" alt="Shiba Arcade" style="width:308px;max-width:80%;height:auto;opacity:0.8;filter:drop-shadow(0 0 80px white)" />
+			<img
+				class="mini-card-logo"
+				src="https://manifesto.hackclub.com/images/shiba-logo.png"
+				alt="Shiba Arcade"
+				style="width:308px;max-width:80%;height:auto;opacity:0.8;filter:drop-shadow(0 0 80px white)"
+			/>
 		</a>
 
 		<a class="mini-card" href="https://hackpad.hackclub.com" target="_blank" rel="noopener">
 			<img class="mini-card-bg" src="https://manifesto.hackclub.com/images/hackpad-bg.png" alt="" />
-			<img class="mini-card-logo" src="https://manifesto.hackclub.com/images/hackpad-logo.png" alt="Hackpad" style="width:65%;height:auto" />
+			<img
+				class="mini-card-logo"
+				src="https://manifesto.hackclub.com/images/hackpad-logo.png"
+				alt="Hackpad"
+				style="width:65%;height:auto"
+			/>
 		</a>
 
 		<a class="mini-card" href="https://horizons.hackclub.com" target="_blank" rel="noopener">
-			<img class="mini-card-bg" src="https://manifesto.hackclub.com/images/horizons-bg.png" alt="" />
-			<img class="mini-card-logo" src="https://manifesto.hackclub.com/images/horizons-logo.png" alt="Horizons" style="width:100%;height:auto" />
+			<img
+				class="mini-card-bg"
+				src="https://manifesto.hackclub.com/images/horizons-bg.png"
+				alt=""
+			/>
+			<img
+				class="mini-card-logo"
+				src="https://manifesto.hackclub.com/images/horizons-logo.png"
+				alt="Horizons"
+				style="width:100%;height:auto"
+			/>
 		</a>
 	</div>
 </section>
 
 <section class="blogs">
 	<h1 class="stitle">Blogs from [PLACEHOLDER]</h1>
-	<a href="https://journal.tongyu.fish/gapyear/" target="_blank" rel="noopener noreferrer" class="notes-card">
-		<img class="notes-card-photo" src="https://manifesto.hackclub.com/images/notes-tongyu.jpg" alt="Tongyu" />
+	<a
+		href="https://journal.tongyu.fish/gapyear/"
+		target="_blank"
+		rel="noopener noreferrer"
+		class="notes-card"
+	>
+		<img
+			class="notes-card-photo"
+			src="https://manifesto.hackclub.com/images/notes-tongyu.jpg"
+			alt="Tongyu"
+		/>
 		<div class="notes-card-text">
 			<p class="notes-card-title">this is why you should do a hack club gap year. →</p>
 			<p class="notes-card-author">Written by Tongyu, 2025-26 Gap Year</p>
 		</div>
 	</a>
 
-	<a href="https://notes.deven.dev/posts/the-plan-for-hack-club-world-dominance" class="notes-card" target="_blank">
-		<img class="notes-card-photo" src="https://cdn.hackclub.com/019d7609-92c0-7e58-8b43-c91362db8aa9/image_720-4.png" alt="Deven" />
+	<a
+		href="https://notes.deven.dev/posts/the-plan-for-hack-club-world-dominance"
+		class="notes-card"
+		target="_blank"
+	>
+		<img
+			class="notes-card-photo"
+			src="https://cdn.hackclub.com/019d7609-92c0-7e58-8b43-c91362db8aa9/image_720-4.png"
+			alt="Deven"
+		/>
 		<div class="notes-card-text">
-			<p class="notes-card-title">The plan for hack club world dominance <span class="notes-card-subtitle">(brief rundown on hack club!)</span> →</p>
+			<p class="notes-card-title">
+				The plan for hack club world dominance <span class="notes-card-subtitle"
+					>(brief rundown on hack club!)</span
+				> →
+			</p>
 			<p class="notes-card-author">Written by Deven, YSWS Lead @ Hack Club</p>
 		</div>
 	</a>
@@ -522,13 +696,12 @@
 	<div class="vbutton-container">
 		<div class="button">
 			<a href="https://forms.hackclub.com/mediafellowship" class="apply-button"
-			>Apply Now ({daysUntilDue} days remaining)</a
+				>Apply Now ({daysUntilDue} days remaining)</a
 			>
 		</div>
 		<div class="button">
 			<a id="linkButton">Read the Hacker Novella ↗</a>
 		</div>
-
 	</div>
 </section>
 

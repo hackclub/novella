@@ -517,7 +517,8 @@ u:hover {
 	margin-bottom: clamp(2rem, 5vh, 4rem);
 }
 
-.past-events, .blogs{
+.past-events,
+.blogs {
 	margin: auto auto 10vh auto;
 	width: 80vw;
 	display: flex;
@@ -525,7 +526,7 @@ u:hover {
 	gap: 8rem;
 }
 
-.past-events .stitle{
+.past-events .stitle {
 	text-align: left;
 	color: var(--color-text-dim);
 	font-size: clamp(1.4rem, 2.7vw, 2.75rem);
@@ -575,7 +576,9 @@ u:hover {
 	height: 300px;
 	object-fit: cover;
 	display: block;
-	transition: transform 0.3s ease, filter 0.3s ease;
+	transition:
+		transform 0.3s ease,
+		filter 0.3s ease;
 }
 
 .program-card-logo {
@@ -593,18 +596,18 @@ u:hover {
 	width: 100%;
 }
 
-.blogs .stitle{
+.blogs .stitle {
 	text-align: left;
 	color: var(--color-text-dim);
 	font-size: clamp(1.4rem, 2.7vw, 2.75rem);
 	/*margin-bottom: -3rem;*/
 }
 
-#andsomuchmore{
+#andsomuchmore {
 	font-family: 'Glyseric', 'serif';
 	font-size: clamp(1.3rem, 2.3vw, 2.5rem);
 	color: var(--color-text-dim);
-	font-weight:bold;
+	font-weight: bold;
 	margin-bottom: -3rem;
 }
 
@@ -678,7 +681,6 @@ u:hover {
 	display: block;
 	object-fit: contain;
 }
-
 
 .mini-card-overlay {
 	position: absolute;
