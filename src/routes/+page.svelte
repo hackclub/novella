@@ -453,8 +453,22 @@
 </section>
 
 <section class="blogs">
-	<h1 class="stitle">Title for blog section [PLACEHOLDER]</h1>
-	<div></div>
+	<h1 class="stitle">Blogs from [PLACEHOLDER]</h1>
+	<a href="https://journal.tongyu.fish/gapyear/" target="_blank" rel="noopener noreferrer" class="notes-card">
+		<img class="notes-card-photo" src="https://manifesto.hackclub.com/images/notes-tongyu.jpg" alt="Tongyu" />
+		<div class="notes-card-text">
+			<p class="notes-card-title">this is why you should do a hack club gap year. →</p>
+			<p class="notes-card-author">Written by Tongyu, 2025-26 Gap Year</p>
+		</div>
+	</a>
+
+	<a href="https://notes.deven.dev/posts/the-plan-for-hack-club-world-dominance" class="notes-card" target="_blank">
+		<img class="notes-card-photo" src="https://cdn.hackclub.com/019d7609-92c0-7e58-8b43-c91362db8aa9/image_720-4.png" alt="Deven" />
+		<div class="notes-card-text">
+			<p class="notes-card-title">The plan for hack club world dominance <span class="notes-card-subtitle">(brief rundown on hack club!)</span> →</p>
+			<p class="notes-card-author">Written by Deven, YSWS Lead @ Hack Club</p>
+		</div>
+	</a>
 </section>
 
 <section class="hwyd-section">
