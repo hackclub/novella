@@ -517,7 +517,7 @@ u:hover {
 	margin-bottom: clamp(2rem, 5vh, 4rem);
 }
 
-.past-events{
+.past-events, .blogs{
 	margin: auto auto 10vh auto;
 	width: 80vw;
 	display: flex;
@@ -590,4 +590,11 @@ u:hover {
 	line-height: normal;
 	margin: 0;
 	width: 100%;
+}
+
+.blogs .stitle{
+	text-align: left;
+	color: var(--color-text-dim);
+	font-size: clamp(1.4rem, 2.7vw, 2.75rem);
+	/*margin-bottom: -3rem;*/
 }

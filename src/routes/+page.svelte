@@ -413,7 +413,8 @@
 </section>
 
 <section class="blogs">
-
+	<h1 class="stitle">Title for blog section [PLACEHOLDER]</h1>
+	<div></div>
 </section>
 
 <section class="hwyd-section">
@@ -464,15 +465,16 @@
 
 <section class="cta-section">
 	<h1 class="title">The door is open.</h1>
-	<div class="button">
-		<a href="https://forms.hackclub.com/mediafellowship" class="apply-button"
+	<div class="vbutton-container">
+		<div class="button">
+			<a href="https://forms.hackclub.com/mediafellowship" class="apply-button"
 			>Apply Now ({daysUntilDue} days remaining)</a
-		>
-	</div>
-	<div class="button-container">
+			>
+		</div>
 		<div class="button">
 			<a id="linkButton">Read the Hacker Novella ↗</a>
 		</div>
+
 	</div>
 </section>
 
