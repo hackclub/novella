@@ -438,7 +438,8 @@
 	<p class="hc-body">
 		We are a 501(c)(3) global non-profit organization based in the United States. We host real
 		adventures, run online programs, and provide community for technical teenagers! Every year, our
-		community creates thousands of amazing projects, and we ship out thousands of cool prizes, from stickers to laptops to plushies of our mascot!
+		community creates thousands of amazing projects, and we ship out thousands of cool prizes, from
+		stickers to laptops to plushies of our mascot!
 	</p>
 	<section class="videos-body">
 		<h1 class="title">Some videos we've posted before:</h1>
