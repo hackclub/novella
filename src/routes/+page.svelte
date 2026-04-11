@@ -370,13 +370,13 @@
 <section class="fellowship-section">
 	<h2 class="title">Introducing the Hack Club Media Gap Year Fellowship</h2>
 	<p class="fellowship-body">
-		This is a paid, full-time, in-person role. $50k/year + all travel covered + healthcare &
-		benefits. It's intended to be something you do for a year before you go to college or whatever
-		your plans are after high school, but if you are on an alternate schooling path, that works too!<br
-		/><br />You will be spending time at Hack Club HQ, working on projects and making videos with
-		the team, as well as travelling all over the world to different Hack Club events!<br /><br
-		/><strong>The job:</strong> Make Hack Club a household name. Reach new audiences and as many teens
-		as you can.
+		This is a paid, full-time, in-person role. $50k/year + $2k equipment/hardware stipend + all
+		travel covered + healthcare & benefits. It's intended to be something you do for a year before
+		you go to college or whatever your plans are after high school, but if you are on an alternate
+		schooling path, that works too!<br /><br />You will be spending time at Hack Club HQ, working on
+		projects and making videos with the team, as well as travelling all over the world to different
+		Hack Club events!<br /><br /><strong>The job:</strong> Make Hack Club a household name. Reach new
+		audiences and as many teens as you can.
 	</p>
 	<div class="button">
 		<a href="https://forms.hackclub.com/mediafellowship" class="apply-button"
