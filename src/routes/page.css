@@ -458,7 +458,7 @@ u:hover {
 }
 
 #linkButton:hover {
-	color: var(--color-bg);
+	color: white;
 	background-color: var(--color-accent);
 	border-color: var(--color-accent);
 }
