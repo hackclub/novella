@@ -30,6 +30,13 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: "Garamond";
+	src: url("/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truetype");
+	font-style: italic;
+	font-display: swap;
+}
+
 html {
 	overflow-x: hidden;
 }

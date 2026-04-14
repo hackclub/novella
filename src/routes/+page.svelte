@@ -705,7 +705,7 @@
 </section>
 
 <section class="hwyd-section">
-	<h2 class="title">Here's what <span style="text-decoration: underline;">you'll</span> do.</h2>
+	<h2 class="title">Here's what <i><span style="font-family: Garamond; font-weight: bold">you'll</span></i> do.</h2>
 	<div class="hwyd-panel">
 		<img
 			class="panel-img left"
