@@ -1,8 +1,11 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 	import { bottomCarouselImages, topCarouselImages } from '$lib/carousel';
 	import './page.css';
+
+	const novella = resolve('/novella');
 
 	const DUE_YEAR: number = 2026;
 	const DUE_MONTH: number = 4;
@@ -766,7 +769,7 @@
 			>
 		</div>
 		<div class="button">
-			<a id="linkButton">A note from the designers ↗</a>
+			<a id="linkButton" href={novella}>A note from the designers ↗</a>
 		</div>
 	</div>
 </section>
