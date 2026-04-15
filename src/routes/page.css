@@ -1009,6 +1009,10 @@ u:hover {
 		height: auto;
 	}
 
+	.video-container {
+		width: 100%;
+	}
+
 	.videos-body {
 		max-width: 100%;
 	}
