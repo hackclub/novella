@@ -98,12 +98,12 @@
 		</p>
 		<p style="color: var(--color-text-dim);">- Max Tran, 2026 Summer Intern</p>
 		<br />
-		<h3>Swarit's Note</h3>
+		<!-- <h3>Swarit's Note</h3>
 		<p></p>
 		<h3>Astra's Note</h3>
 		<p></p>
 		<h3>Sahil's Note</h3>
-		<p></p>
+		<p></p> -->
 		<h3>Rushil's Note</h3>
 		<p>
 			Hey y’all, my name is Rushil and I’m a philanthropy intern at Hack Club. My journey started
