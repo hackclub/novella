@@ -472,6 +472,7 @@ u:hover {
 	justify-content: center;
 	background: var(--color-bg);
 	margin-bottom: 11vh;
+	margin-top: clamp(2rem, 20vh, 9rem);
 }
 
 .hc-body {
@@ -929,17 +930,21 @@ u:hover {
 	align-items: flex-start;
 	justify-content: center;
 	gap: 2vw;
+	width: 100%;
+	margin: 0 auto;
+	flex-wrap: wrap;
 }
 
 .videos-body {
-	max-width: 80%;
-	margin: auto auto 5rem auto;
+	max-width: min(80%, 1200px);
+	margin: 10vh auto 5rem auto;
 	text-align: center;
 }
 
 .videos-body .title {
 	color: var(--color-text-dim);
 	margin-bottom: 1rem;
+	font-size: clamp(1.2rem, 3vw, 2.5rem);
 }
 
 #fallout,
@@ -950,6 +955,8 @@ u:hover {
 }
 
 .video-container {
+	margin-left: auto;
+	margin-right: auto;
 	max-width: clamp(250px, 35vw, 750px);
 }
 
@@ -962,6 +969,7 @@ u:hover {
 @media (max-width: 768px) {
 	#videos-container {
 		flex-direction: column;
+		gap: 4rem;
 	}
 
 	#fallout,
