@@ -321,14 +321,14 @@
 					<figure class="hero-video-figure">
 						<iframe
 							class="hero-video"
-							src="https://www.youtube-nocookie.com/embed/kaEFv7e49mo?autoplay=1&mute=1&controls=0&loop=1&playlist=kaEFv7e49mo&modestbranding=1"
+							src="https://www.youtube-nocookie.com/embed/kkbf092Los0?autoplay=1&mute=1&controls=0&loop=1&playlist=kkbf092Los0&modestbranding=0"
 							title="Hack Club Media"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 							allowfullscreen
 						></iframe>
 						<figcaption class="hero-video-caption">
-							Hack Club at Undercity, a 4-day hardware hackathon in Github HQ
+							<a href="https://shiba.hackclub.com" target="_blank" rel="noopener noreferrer">Hack Club Shiba</a> - Nov, 2025 in Tokyo, Japan
 						</figcaption>
 					</figure>
 				</div>
@@ -780,9 +780,9 @@
 		81-2908499)
 	</p>
 	<p>
-		made with &lt;3 by <u><a href="https://github.com/hellonearth311">hellonearth311</a></u>,
+		made with &lt;3 by <u><a href="https://github.com/maxstellar">maxstellar</a></u>,
 		<u><a href="https://github.com/sadeshmukh">sadeshmukh</a></u>,
-		<u><a href="https://github.com/maxstellar">maxstellar</a></u>,
+		<u><a href="https://github.com/hellonearth311">hellonearth311</a></u>,
 		<u><a href="https://github.com/astra-the-boop">astra celestine</a></u>, and
 		<u><a href="https://github.com/mntrushmore">rushmore</a></u>.
 		<u><a href="https://github.com/hackclub/novella">always OSS</a>.</u>
