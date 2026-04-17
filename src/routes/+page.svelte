@@ -312,7 +312,7 @@
 							<p
 								style="font-size: clamp(12px, 1.8vh, 22px); color: #aaa; letter-spacing: 0.05em; margin-top: 0.5em;"
 							>
-								Full-time, in-person &middot; June 2026 - August 2027, $50k/year (~$60k total)
+								Full-time, in-person &middot; June 2026 - August 2027, $50k/year
 								&middot; $10k travel + $5k equipment budget
 							</p>
 						</div>
@@ -404,7 +404,7 @@
 <section class="fellowship-section">
 	<h2 class="title">Introducing the Hack Club Media Gap Year Fellowship</h2>
 	<p class="fellowship-body">
-		This is a paid, full-time, in-person role from June 2026 - August 2027. $50k/year (~$60k total)
+		This is a paid, full-time, in-person role from June 2026 - August 2027. $50k/year
 		+ $5k equipment stipend + $10k travel + healthcare & benefits at Hack Club HQ in Burlington,
 		Vermont.
 	</p>
