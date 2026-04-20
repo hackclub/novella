@@ -1,4 +1,4 @@
-#scroll-down {
+.scroll-down {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -6,10 +6,10 @@
 	width: min(92vw, 72rem);
 	max-width: 40ch;
 
-	font-family: 'Glyseric';
+	font-family: 'Glyseric', serif;
 	font-size: clamp(0.9rem, 2vh, 1.25rem);
 	line-height: 1.2;
-	color: var(--color-text-muted);
+	color: var(--color-overlay-medium);
 
 	margin: clamp(1rem, 4vh, 2.5rem) auto 0;
 	gap: 0.5em;
@@ -22,6 +22,10 @@
 	display: inline-block;
 	will-change: transform;
 	animation: scroll-down-arrow 2s infinite;
+}
+
+#scroll-down-2 {
+	display: none;
 }
 
 @keyframes scroll-down-arrow {
@@ -759,10 +763,42 @@ u:hover {
 
 	#title {
 		font-size: clamp(20px, 4vh, 50px);
+		margin-bottom: 0;
 	}
 
 	#body {
 		font-size: clamp(14px, 2.5vh, 28px);
+	}
+
+	.hero-video-annotation {
+		display: none;
+	}
+
+	#scroll-down {
+		display: none;
+	}
+
+	#scroll-down-2 {
+		display: flex;
+	}
+
+	.carousel-viewport {
+		--carousel-gap: 8px;
+		--card-height: clamp(80px, 11dvh, 130px);
+	}
+
+	.hero-flag {
+		margin-bottom: 0;
+	}
+
+	.scroll-down {
+		margin-top: clamp(2px, 2.5vh, 3rem);
+		font-size: clamp(0.5rem, 1.5vh, 1rem);
+	}
+
+	.hero {
+		transform: translate(-50%, -50%);
+		max-height: 92vh;
 	}
 }
 
@@ -847,7 +883,6 @@ u:hover {
 
 	#title {
 		line-height: 120%;
-		margin-bottom: 2vh;
 	}
 
 	/* past-events */
