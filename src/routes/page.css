@@ -142,6 +142,7 @@
 	display: block;
 	width: min(100%, 30vh * 16 / 9);
 	max-height: 30vh;
+	max-width: 500px;
 }
 
 .hero-video-annotation {
