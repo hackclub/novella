@@ -140,7 +140,7 @@
 .hero-video {
 	aspect-ratio: 16 / 9;
 	display: block;
-	width: min(100%, 30vh * 16 / 9);
+	width: clamp(250px, 30vw, 500px);
 	max-height: 30vh;
 	max-width: 500px;
 }
@@ -752,6 +752,11 @@ u:hover {
 	color: #ddd;
 }
 
+@media (min-width: 1024px) {}
+.hero-video {
+	width: clamp(350px, 30vw, 500px);
+}
+
 @media (max-width: 1024px) {
 	/* hero row */
 	.hero-row {
@@ -763,7 +768,8 @@ u:hover {
 	}
 
 	.hero-video {
-		width: min(100%, 28vh * 16 / 9);
+		width: clamp(250px, 30vw, 320px);
+		min-width: 250px;
 		max-height: 28vh;
 	}
 
@@ -798,7 +804,7 @@ u:hover {
 	}
 
 	.scroll-down {
-		margin-top: clamp(2px, 2.5vh, 3rem);
+		margin-top: clamp(2px, 1vh, 3rem);
 		font-size: clamp(0.5rem, 1.5vh, 1rem);
 	}
 
