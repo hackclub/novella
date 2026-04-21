@@ -757,8 +757,8 @@ u:hover {
 	}
 
 	.hero-video {
-		width: min(100%, 20vh * 16 / 9);
-		max-height: 20vh;
+		width: min(100%, 28vh * 16 / 9);
+		max-height: 28vh;
 	}
 
 	#title {
